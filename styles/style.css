@@ -234,6 +234,7 @@
   grid-template-columns: 430px auto;
   justify-items: center;
   gap: 25px;
+  justify-content: start
 }
 
 .about__logo {
@@ -257,11 +258,13 @@
   font-size: 40px;
   line-height: normal;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .about__text {
   font-size: 20px;
   line-height: normal;
+  text-align: left;
 }
 
 .about__text:first-of-type {
